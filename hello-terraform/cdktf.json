@@ -2,8 +2,13 @@
   "language": "python",
   "app": "pipenv run python main.py",
   "projectId": "45b3bd7c-ad23-4c6c-9452-43fc33b7e0b3",
-  "terraformProviders": [],
-  "terraformModules": [],
+  "terraformProviders": [
+    // Terraform providers with version constraint go here
+    "aws@~> 3.45"
+  ],
+  "terraformModules": [
+    // Terraform modules with version constraint go here
+  ],
   "codeMakerOutput": "imports",
   "context": {
     "excludeStackIdFromLogicalIds": "true",
